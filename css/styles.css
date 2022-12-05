@@ -1,0 +1,76 @@
+#primer_link {
+    text-decoration: none;
+}
+
+/*** ORIGENES-LM.HTML ******/
+body {
+    background-color: antiquewhite;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+nav a{
+    text-decoration:none;
+    color:inherit;
+    font-size:14px;
+} 
+
+nav {
+    text-align: center;
+}
+
+nav li{
+    display:inline-block;
+    width:15%;
+    padding:5px 10px;
+    background-color:#000;
+    border:1px solid #000;
+    text-align:center;
+    color:#fff;
+}
+
+nav li:hover{
+    background-color:#fff;
+    color:#000;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+td, th {
+    border: 1px solid #ccc;
+    text-align: left;
+    padding: 8px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+/***** orgienes-CSS-SCSS-html*****/
+#foto {
+    text-align: left;
+}
+
+
+main {
+    display: grid;
+    grid-template-areas:
+    'cab cab cab cab'
+    'men men men men'
+    'sec sec sec asi '
+    'sec sec sec asi '
+    'sec sec sec asi '
+    'pie pie pie pie';
+    grid-gap: 5px;
+    padding: 5px;
+}
